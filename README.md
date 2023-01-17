@@ -16,6 +16,6 @@
 <h5>- Tecnologías utilizadas</h5>
   <img src= "https://i.postimg.cc/pdThH05w/image-2023-01-17-140324229.png" width= 300px/>
 
-<h3>[Link de la Página](https://luxury-moxie-1b7b81.netlify.app) :3</h3>
+<h3> <a href= "https://luxury-moxie-1b7b81.netlify.app ">Link de la Página :3<a/></h3>
 
 
