@@ -3,7 +3,7 @@
 Este proyecto realiza un CRUD ( Create, Read, Update, Delete) con ayuda de una Api. Su diseño es responsivo para dispositivos móbiles y de escritorio.
 <h3> - Página principal</h3>
 <h7>Esta es la vista principal del proyecto donde se visualizan todos lo usuarios registrados en la Api, contamos con un boton de "Crear nuevo usuario" para añadir un asuario a la Api. Cada tarjeta cuenta además con un botón para editar y otro para eliminar los usuarios</h7>
-<img src= "https://postimg.cc/Bj6N4q5R"/>
+<img src= "https://i.postimg.cc/YCNPN0v2/MainView.png"/>
 [![MainView.png](https://i.postimg.cc/YCNPN0v2/MainView.png)](https://postimg.cc/Bj6N4q5R)
 <h3>- Formulario de registro</h3> 
 <h7>Al dar click en "Añadir nuevo usuario, se despliega este formulario donde se ingresarán los datos de dicho usuario</h7>
