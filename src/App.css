@@ -1,0 +1,201 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header{
+  display: flex;
+  padding: 2.5rem 6rem 2.5rem 7rem;
+  justify-content: space-between;
+  width: 100%;  
+}
+
+.header > button{
+  padding: 10px 0.9rem;
+  border: none;
+  color: white;
+  background-color: rgb(62, 55, 94);
+  cursor: pointer;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  line-height: 2rem;
+}
+
+.card{
+  text-align: left;
+  width: 300px;
+  box-shadow: 0 0 5px 2px rgb(188, 188, 188);
+  margin: 1.5rem 1.5rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 2px;
+}
+
+.card > p > strong{
+  color: gray;
+}
+
+.card > h4 {
+  border-bottom: solid rgba(197, 197, 197, 0.265);
+}
+
+.actions{
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  border-top: solid rgba(197, 197, 197, 0.265);
+}
+
+.edit{
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(246,246,246);
+  border: 1px solid rgb(228, 228, 228);  
+  cursor: pointer;
+}
+
+.delete{
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(216,93,93);
+  border: 1px solid rgb(182, 97, 97);  
+  cursor: pointer;
+}
+
+.form-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: rgba(165, 165, 165, 0.742);
+}
+
+.form{
+  position: relative;
+  width: 30%;
+  height: 85%;
+  text-align: left;
+  background-color: white;
+  padding: 1rem 0 1px 0;
+}
+
+.form > h3{
+  margin: 0 1.2rem;
+  font-size: 30px;
+}
+
+.form > button{
+  font-size: 15px;
+  top: 10px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+}
+.form-in{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 93%;
+}
+
+.form-in > button{
+  margin-top: 1rem;
+  width: 90%;
+  background-color:rgb(85, 90, 136) ;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.input{
+  margin: 0.5rem 0;
+  width: 90%;
+  text-align: left;
+}
+
+.input > input{
+  background-color: rgb(249, 250,252);
+  width: 100%;
+  height: 35px;
+  border: solid rgb(189,189,189);
+  border-radius: 6px;
+  padding: 0 0.7rem;
+  margin: 0.5rem 0;
+}
+
+.delete-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: rgba(165, 165, 165, 0.742);
+}
+
+.delete-user{
+  text-align: left;
+  width: 300px;
+  height: 190px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.5rem 1.5rem;
+}
+
+.delete-user > h2{
+  text-align: left;
+}
+
+.delete-actions{
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-actions > button{
+  width: 45%;
+  background-color:rgb(85, 90, 136) ;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
