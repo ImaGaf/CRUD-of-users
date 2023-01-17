@@ -13,6 +13,8 @@
 <br/>
   <img src= "https://i.postimg.cc/y8VNyJLv/delete.png"  width= 700px/>
 
+---------------------------------------------------------------------------------------------------------------------------
+
 <h5>- Tecnologías utilizadas</h5>
   <img src= "https://i.postimg.cc/pdThH05w/image-2023-01-17-140324229.png" width= 300px/>
 
