@@ -8,8 +8,8 @@ import React from 'react';
     return (
         <div className='main-container'>
             <div className='header'>
-                <h2><strong>USUARIOS</strong></h2>
-                <button onClick={()=> setForm(true)}>+ Crear nuevo usuario</button>
+                <h2><strong>USERS</strong></h2>
+                <button onClick={()=> setForm(true)}>+ Add New User</button>
             </div>
             <div className='card-container'>
                 {

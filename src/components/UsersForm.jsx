@@ -40,7 +40,7 @@ const UsersForm = ({setForm, getUsers,userSelected,setUserSelected}) => {
         <div className='form-back'>
             <div className='form'>
                 <button onClick={()=> closeForm()}>x</button>
-                <h3>Nuevo usuario</h3>
+                <h3>{userSelected? "Edit User":"New User"}</h3>
                 <form className='form-in' onSubmit={handleSubmit(submit)}>
                     <div className='input'>
                         <p>Name</p>
@@ -62,7 +62,7 @@ const UsersForm = ({setForm, getUsers,userSelected,setUserSelected}) => {
                         <p>Birthday</p>
                         <input type="date" placeholder='Birthday' id="birthday" {...register("birthday")}/>
                     </div>
-                    <button type='submit'> {userSelected? "Actualizar":"Agregar nuevo usuraio"}</button>
+                    <button type='submit'> {userSelected? "Upload":"Add new user"}</button>
                 </form>
             </div>
         </div>
