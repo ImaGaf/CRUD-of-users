@@ -11,11 +11,11 @@ const Warning = ({userToDelete, cancelDelete, getUsers}) => {
     return (
         <div className='delete-back'>
             <div className='delete-user'>
-                <h2>Eliminar usuario</h2>
-                <p> ¿Deseas eliminar al usuario <strong>{userToDelete?.first_name}</strong>?</p>
+                <h2>Delete User</h2>
+                <p> Do you want to delete the user: <strong>{userToDelete?.first_name}</strong>?</p>
                 <div className='delete-actions'>
-                    <button onClick={()=> deleteUser(userToDelete)}>Eliminar</button>
-                    <button onClick={()=>cancelDelete()}>Cancelar</button>
+                    <button onClick={()=> deleteUser(userToDelete)}>Delete</button>
+                    <button onClick={()=>cancelDelete()}>Cancel</button>
                 </div>
             </div>
         </div>
